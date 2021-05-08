@@ -1,6 +1,6 @@
 # NMT (Neural Machine Translation)
 This is an implementation of Machine Translation using Encoder-Decoder Mechanism along with Attention 
-The architecture used here uses an encoder that encodes a source sentence into a fixed-length vector from which a decoder generates a translation. Although effective, the Encoder-Decoder architecture has problems with long sequences of text to be translated. Fixed-length vector is a bottleneck in improving the performance of this basic encoder-decoder architecture, which can be solved using an attention mechanism that allows the model to learn where to place attention on the input sequence as each word of the output sequence is decoded.
+The architecture used here employs an encoder that encodes a source sentence into a fixed-length vector from which a decoder generates a translation. Although effective, the Encoder-Decoder architecture has problems with long sequences of text to be translated. Fixed-length vector is a bottleneck in improving the performance of this basic encoder-decoder architecture, which can be solved using an attention mechanism that allows the model to learn where to place attention on the input sequence as each word of the output sequence is decoded.
 
 In this project the translation is from English -> French but, this network can be applied to any other languages given the data.
 
